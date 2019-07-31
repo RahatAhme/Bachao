@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textColor="#000000"
+        android:fontFamily="@font/mon_bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="top|left"
+
+        android:layout_marginStart="10dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/name"
+    android:textSize="16sp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:fontFamily="@font/mon_regular"/>
+
+        <EditText
+            android:id="@+id/nameInProfile"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Mr.xxx"
+            android:textColor="#000000"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ownnum"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+
+
+        <EditText
+            android:id="@+id/numberInprofile"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="012000000"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adress"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+        <EditText
+            android:id="@+id/adressInPRofile"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"
+            android:text="kandirpaar,Cumilla"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency2"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+        <EditText
+            android:id="@+id/emergencyNumber1INprofile"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"
+            android:text="0123456677"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency3"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+        <EditText
+            android:id="@+id/emergencyNumber2INPROFILE"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="0130202020"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nid"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+        <EditText
+            android:id="@+id/nidNoPRofile"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="0130202020"
+            android:background="@drawable/transparent"
+            android:fontFamily="@font/mon_regular"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texthjint"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:fontFamily="@font/mon_regular"/>
+
+        <Button
+            android:id="@+id/laguagePrestBtn"
+            android:layout_width="150dp"
+            android:layout_height="45sp"
+            android:layout_marginTop="5dp"
+            android:background="#009688"
+            android:fontFamily="@font/mon_bold"
+            android:text="@string/changeLang"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:gravity="bottom|right"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/updateBTN"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#009688"
+            android:fontFamily="@font/mon_bold"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

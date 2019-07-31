@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    tools:context=".signIn_signUp_Pakage.emergencyContactList">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:fontFamily="@font/mon_bold"
+                android:textColor="#fff"
+                android:text="@string/emergency"
+                android:layout_height="match_parent"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+               android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:background="@drawable/person"
+                    android:layout_height="100dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/emergency2"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/mon_regular"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="01566"
+                        android:id="@+id/ph1"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/mon_bold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:background="@drawable/person"
+                    android:layout_height="100dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/emergency3"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/mon_regular"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="01566"
+                        android:id="@+id/ph2"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/mon_bold"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

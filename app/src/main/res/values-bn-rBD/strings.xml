@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">BACHAO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="help">Please follow the below steps properly:\n\n\n\t1:Register Your Phone Number.\n\t2:Register Your Guardian Numbers.\n\t3:Always maintain working internet connection.\n\t4:SHOUT the word "HELP" in case of emergency to alert your guardians.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_required">Please grant the permission to use the microphone</string>
+    <string name="start_service">START SERVICE</string>
+    <string name="stop_service">STOP SERVICE</string>
+
+    <string name="voice_recognizer_is_active">Voice Recognizer is active...</string>
+    <string name="ask_permission">Please allow Speech to always run in the background,else our services can\'t be accessed when you are in distress</string>
+    <string name="allow">ALLOW</string>
+    <string name="enable_autostart">Enable AutoStart</string>
+    <string name="my_service_name">com.sac.speechdemo.MyService</string>
+
+
+    <string name="complain2">অভিযোগ বাক্স</string>
+    <string name="login">Log In</string>
+    <string name="logout">লগ আউট</string>
+    <string name="register">Register</string>
+    <string name="pass">Enter Your Password</string>
+    <string name="mail">Enter Your Email</string>
+    <string name="submit">Submit</string>
+    <string name="neraby">নিকটবর্তী স্থান</string>
+    <string name="emergency">জরুরী যোগাযোগ</string>
+    <string name="complain">অভিযোগ বাক্স</string>
+    <string name="FreindIN">বিপদের বন্ধু</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="aboutus">আমাদের সম্পর্কে</string>
+    <string name="name">নাম</string>
+    <string name="ownnum">নিজের নম্বর</string>
+    <string name="adress">ঠিকানা</string>
+    <string name="nid">এনআইডি</string>
+    <string name="texthjint">****নিজের মত পরিবর্তন করে আপডেট বাটন এ ক্লিক করুন এবং অপেক্ষা করুন....</string>
+    <string name="update">Update</string>
+    <string name="complainCommad"> আপনার অভিযোগ লিখুন</string>
+    <string name="cmolainHistory">পূর্ববর্তী অভিযোগ</string>
+    <string name="creatAccount">Create Account</string>
+    <string name="create">Create</string>
+    <string name="nidNo">এনআইডি</string>
+    <string name="phoneNumn">Phone Number</string>
+    <string name="regPage">Register Page</string>
+    <string name="changeLang">ভাষা পরিবর্তন করুন </string>
+    <string name="emergency2">জরুরী যোগাযোগ ১</string>
+    <string name="emergency3">জরুরী যোগাযোগ ২</string>
+    <string name="post">পোস্ট করুন</string>
+    <string name="rateUs">রেটিং করুন</string>
+    <string name="nearByHosptials">নিকটবর্তী হাসপাতাল </string>
+    <string name="nearbYPoliceStation">নিকটবর্তী থানা </string>
+
+
+
+
+
+</resources>

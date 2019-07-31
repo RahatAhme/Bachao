@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BACHAO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="help">Please follow the below steps properly:\n\n\n\t1:Register Your Phone Number.\n\t2:Register Your Guardian Numbers.\n\t3:Always maintain working internet connection.\n\t4:SHOUT the word "HELP" in case of emergency to alert your guardians.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_required">Please grant the permission to use the microphone</string>
+    <string name="start_service">START SERVICE</string>
+    <string name="stop_service">STOP SERVICE</string>
+
+    <string name="voice_recognizer_is_active">Voice Recognizer is active...</string>
+    <string name="ask_permission">Please allow Speech to always run in the background,else our services can\'t be accessed when you are in distress</string>
+    <string name="allow">ALLOW</string>
+    <string name="enable_autostart">Enable AutoStart</string>
+    <string name="my_service_name">com.sac.speechdemo.MyService</string>
+
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="register">Register</string>
+    <string name="pass">Enter Your Password</string>
+    <string name="mail">Enter Your Email</string>
+    <string name="submit">Submit</string>
+    <string name="neraby">Nearby Zone</string>
+    <string name="emergency">Emergency\nContact</string>
+    <string name="complain">Complain\nBox</string>
+    <string name="complain2">Complain Box</string>
+    <string name="FreindIN">Friend In Need</string>
+    <string name="profile">Profile</string>
+    <string name="aboutus">About US</string>
+    <string name="name">Name</string>
+    <string name="ownnum">Own Number</string>
+    <string name="adress">Address</string>
+    <string name="nid">NID</string>
+    <string name="texthjint">****Just Edit What YOu Need To Update And Hit Update Button And Wait ....</string>
+    <string name="update">Update</string>
+    <string name="complainCommad"> Write Your Complain Here</string>
+    <string name="cmolainHistory">Complain\nHistory</string>
+    <string name="creatAccount">Create Account</string>
+    <string name="create">Create</string>
+    <string name="nidNo">Nid No</string>
+    <string name="phoneNumn">Phone Number</string>
+    <string name="regPage">Register Page</string>
+    <string name="changeLang">Change Language</string>
+    <string name="emergency2">Emergency Contact 1</string>
+    <string name="post">Post</string>
+    <string name="rateUs">Rate Us</string>
+    <string name="emergency3">Emergency Contact 2</string>
+    <string name="nearByHosptials">Nearby Hospital </string>
+    <string name="nearbYPoliceStation">Nearby Police Station  </string>
+
+
+
+</resources>

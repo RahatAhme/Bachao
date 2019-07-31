@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inst"
+            android:visible="false"
+            android:icon="@drawable/icon_inst"
+            android:title="Instructions" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/icon_register"
+
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/ComplainBOx"
+            android:icon="@drawable/icon_inst"
+            android:title="@string/complain2" />
+
+        <item
+            android:id="@+id/nav_verify"
+            android:visible="false"
+            android:icon="@drawable/icon_register"
+            android:title="Register Myself" />
+        <item
+            android:id="@+id/nav_register"
+            android:visible="false"
+            android:icon="@drawable/icon_contatcs"
+            android:title="Register My Contacts" />
+        <item
+            android:id="@+id/nav_display"
+            android:visible="false"
+            android:icon="@drawable/icon_display"
+            android:title="Display Contacts" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:visible="false"
+            android:icon="@drawable/icon_nearby"
+            android:title="Nearby Places" />
+        <item
+            android:id="@+id/nav_safety"
+            android:visible="false"
+            android:icon="@drawable/icon_safety"
+            android:title="Safety Tips" />
+        <item
+            android:id="@+id/log_out_btn"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="@string/rateUs" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about"
+                android:title="@string/aboutus" />
+            <!--<item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

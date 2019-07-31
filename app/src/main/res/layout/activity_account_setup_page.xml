@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="250dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="6dp"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:background="#44A083"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/creatAccount"
+                android:textColor="#fff"
+
+                android:fontFamily="@font/mon_bold"
+                android:textSize="23sp" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBarAcSetupPage"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@android:color/holo_orange_light"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneNumn"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:id="@+id/phoneIN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adress"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:id="@+id/adressIN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency2"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:id="@+id/emergencyNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency3"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/emergencyNumber2"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nidNo"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mon_regular"
+        android:textColor="#44A083"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nidNo"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:background="@drawable/transparent"
+        android:fontFamily="@font/mon_bold"
+        android:textColor="#443D3D"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|right"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        >
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#44A083"
+            android:textColor="#fff"
+            android:text="@string/create"
+            android:fontFamily="@font/mon_bold"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

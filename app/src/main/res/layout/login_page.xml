@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_js"
+    >
+
+    <ProgressBar
+        android:id="@+id/progressBarLoginPage"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@android:color/white"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/logo"
+        android:gravity="center" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:showDividers="middle"
+        android:divider="@drawable/hrznl_divider">
+
+        <EditText
+            android:id="@+id/emmailInput"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:padding="8dp"
+            android:hint="Email Address"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:maxLines="1"
+            android:textSize="16sp"
+            tools:ignore="LabelFor"
+            android:background="#44444444"
+            tools:targetApi="O"
+            />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="300dp"
+            android:drawablePadding="12dp"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:ignore="LabelFor"
+            android:background="#44444444"
+            android:importantForAutofill="no"
+            tools:targetApi="O"
+            />
+        <TextView
+            android:id="@+id/forgetPassword_textView"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:ems="12"
+            android:textColor="#00574B"
+            android:textSize="16sp"
+            android:text="Forget Password?"
+            tools:ignore="LabelFor"
+            android:importantForAutofill="no"
+            tools:targetApi="O"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginTop="40dp">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/background_light"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Sign In"
+                tools:ignore="LabelFor"
+                android:background="#128e73"
+                android:importantForAutofill="no"
+                tools:targetApi="O"
+                android:maxLines="1"
+                android:textColor="#ffff"
+                android:ems="10"
+                android:padding="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/background_light"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        >
+        <Button
+            android:id="@+id/buttonRegPage"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Don't have an account? Sign up."
+            tools:ignore="LabelFor"
+            android:importantForAutofill="no"
+            tools:targetApi="O"
+            android:maxLines="1"
+            android:ems="12"
+            android:padding="8dp"
+            android:textColorHint="#fbfbfb"
+            android:background="#44444444"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

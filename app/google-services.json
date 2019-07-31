@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "852754473664",
+    "firebase_url": "https://bachao-660e1.firebaseio.com",
+    "project_id": "bachao-660e1",
+    "storage_bucket": "bachao-660e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852754473664:android:2a570044070ed93d",
+        "android_client_info": {
+          "package_name": "com.bachao.dcc_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852754473664-llqo84u05e7paqg7oina5adr66qi66cv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bachao.dcc_project",
+            "certificate_hash": "ddf441043e2d1c2b623d0f3e002f6816838d94bf"
+          }
+        },
+        {
+          "client_id": "852754473664-c5d4j9kdf3p6e5es4a5ci249lucj5ajh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtL_0CT9VrNYFm7dOVCzaMAEM-JFI7RK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852754473664-c5d4j9kdf3p6e5es4a5ci249lucj5ajh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
